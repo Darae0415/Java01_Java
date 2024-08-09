@@ -20,6 +20,5 @@ public class PrimitiveAndStringConversionExample {
 		
 		strTempo = String.valueOf(true);
 		System.out.println(strTempo + 10);
-		
 	}
 }
