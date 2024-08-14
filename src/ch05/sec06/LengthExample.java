@@ -78,6 +78,8 @@ public class LengthExample {
 		System.out.printf(" 8/12일 오후 9시정각까지  %02d시 %02d분 %02d초가 남았습니다.(%02d:%02d:%02d)\n",
 				stdHour-hour, stdMinute-minute,stdSec-sec,hour, minute,sec
 		);
+		
+		
 	}
 
 }
