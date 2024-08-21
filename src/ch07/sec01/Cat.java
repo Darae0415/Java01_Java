@@ -1,31 +1,20 @@
 package ch07.sec01;
 
 public class Cat extends Animal {
-
-	public Dog() {
-//		super();
-		System.out.println("개가 생성된다.");
-		//super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public void bark() {
-		System.out.println("짖는다");
-		
-	}
 	
+	public void meow() {
+		System.out.println("야옹거린다.");
+	}
 	@Override
 	public void sound() {
 		// TODO Auto-generated method stub
-		super.sound();
-		System.out.println("개가 멍멍한다.");
+		//super.sound();
+		int result = plus(1,2);
+		System.out.printf("고양이가 %d번 야옹한다.\n", result);
+	}
+	
+	protected int plus(int a, int b) {
+		return a+b;
 	}
 
-	@Override
-	public void eat() {
-		super.eat();
-		System.out.println("개가 먹는다.");
-//		Cat cat = new Cat();
-//		cat.plus(0, 0);
-	}
 }
